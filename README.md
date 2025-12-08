@@ -39,4 +39,5 @@
 ---
 
 ### Sample Output
-![Recommendation Output](Screenshot from 2025-12-08 18-35-03.png)
+![Recommendation Output](recommendation_output.png
+)
