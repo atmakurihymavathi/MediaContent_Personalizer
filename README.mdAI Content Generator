@@ -1,0 +1,64 @@
+AI Content Generator
+
+An interactive AI-powered content generation web application built using Streamlit and Large Language Models (LLMs).
+The application allows users to generate high-quality content such as professional emails, LinkedIn posts, advertisements, and conversational text with support for multiple tones, languages, themes, and history tracking.
+Features
+User Authentication
+-Secure login and signup system
+-User-specific sessions
+-Each user’s data (history) is isolated
+
+->AI Content Generation
+-Powered by Meta LLaMA 3 (8B Instruct) via Hugging Face API
+-Generate content based on:
+-Content type
+-Tone
+-Language
+-User-provided idea
+-Supports professional, creative, formal, and friendly writing styles
+
+->Dashboard
+-Central workspace for managing AI-generated content
+-Card-based UI inspired by modern dashboards
+-Overview of features and workflow
+
+->History Management
+-Automatically saves every generated output
+-Timestamped records
+-View past drafts anytime
+-Reload drafts back into the generator
+-Copy saved content instantly
+
+->Copy to Clipboard
+-One-click copy button for generated text
+-Useful for reuse across platforms
+
+Theme Customization
+
+->Multiple pastel themes:
+-Lavender Pastel,Sky Blue,Rose Blush,Mint Green,Soft Yellow,Coffee Brown,Dark Mode support
+Theme changes apply instantly
+
+->Profile Management
+-Upload profile picture
+-Avatar displayed in sidebar
+-Account creation date visible
+
+->Settings
+-Update account password securely
+
+Help & User Guide
+-Step-by-step instructions
+-Usage tips
+-Troubleshooting guide
+
+->Tech Stack
+
+Frontend & UI: Streamlit
+Backend Logic: Python
+AI Model: Meta LLaMA 3 (8B Instruct)
+API Provider: Hugging Face Router
+Authentication & Storage:
+SQLite (users)
+CSV files (history)
+Styling: Custom CSS (Pastel themes + Dark mode)
